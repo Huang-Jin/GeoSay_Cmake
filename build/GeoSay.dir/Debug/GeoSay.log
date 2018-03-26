@@ -1,0 +1,28 @@
+﻿生成启动时间为 2018/3/26 13:24:18。
+     1>项目“G:\Programming\C++\GeoSay_Cmake\build\GeoSay.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"G:\Programming\opencv-2.4.13\build\include" /I"G:\Programming\opencv-2.4.13\build\include\opencv" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"GeoSay.dir\Debug\\" /Fd"GeoSay.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt G:\Programming\C++\GeoSay_Cmake\src\Geosay.cpp
+         Geosay.cpp
+     1>g:\programming\c++\geosay_cmake\src\prob.h(1004): warning C4305: “初始化”: 从“double”到“float”截断
+     1>G:\Programming\C++\GeoSay_Cmake\src\Geosay.cpp(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>G:\Programming\C++\GeoSay_Cmake\src\Geosay.cpp(53): warning C4018: “<”: 有符号/无符号不匹配
+     1>G:\Programming\C++\GeoSay_Cmake\src\Geosay.cpp(61): warning C4018: “<”: 有符号/无符号不匹配
+     1>G:\Programming\C++\GeoSay_Cmake\src\Geosay.cpp(99): warning C4018: “<”: 有符号/无符号不匹配
+     1>G:\Programming\C++\GeoSay_Cmake\src\Geosay.cpp(102): warning C4018: “<”: 有符号/无符号不匹配
+     1>G:\Programming\C++\GeoSay_Cmake\src\Geosay.cpp(156): warning C4018: “<”: 有符号/无符号不匹配
+     1>G:\Programming\C++\GeoSay_Cmake\src\Geosay.cpp(164): warning C4018: “<”: 有符号/无符号不匹配
+     1>G:\Programming\C++\GeoSay_Cmake\src\Geosay.cpp(198): warning C4018: “<”: 有符号/无符号不匹配
+     1>G:\Programming\C++\GeoSay_Cmake\src\Geosay.cpp(201): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>G:\Programming\C++\GeoSay_Cmake\src\Geosay.cpp(203): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>G:\Programming\C++\GeoSay_Cmake\src\Geosay.cpp(205): warning C4018: “<”: 有符号/无符号不匹配
+     1>G:\Programming\C++\GeoSay_Cmake\src\Geosay.cpp(208): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>G:\Programming\C++\GeoSay_Cmake\src\Geosay.cpp(211): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>G:\Programming\C++\GeoSay_Cmake\src\Geosay.cpp(242): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+       Link:
+         G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Programming\C++\GeoSay_Cmake\build\Debug\GeoSay.exe" /INCREMENTAL /NOLOGO "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_videostab2413d.lib" "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_ts2413d.lib" "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_superres2413d.lib" "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_stitching2413d.lib" "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_contrib2413d.lib" "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_nonfree2413d.lib" "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_ocl2413d.lib" "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_gpu2413d.lib" "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_photo2413d.lib" "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_objdetect2413d.lib" "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_legacy2413d.lib" "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_video2413d.lib" "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_ml2413d.lib" "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_calib3d2413d.lib" "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_features2d2413d.lib" "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_highgui2413d.lib" "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_imgproc2413d.lib" comctl32.lib gdi32.lib ole32.lib setupapi.lib ws2_32.lib vfw32.lib "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_flann2413d.lib" "G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_core2413d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/Programming/C++/GeoSay_Cmake/build/Debug/GeoSay.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/Programming/C++/GeoSay_Cmake/build/Debug/GeoSay.lib" /MACHINE:X86 /SAFESEH  /machine:X86 GeoSay.dir\Debug\Geosay.obj
+         GeoSay.vcxproj -> G:\Programming\C++\GeoSay_Cmake\build\Debug\GeoSay.exe
+     1>已完成生成项目“G:\Programming\C++\GeoSay_Cmake\build\GeoSay.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.01

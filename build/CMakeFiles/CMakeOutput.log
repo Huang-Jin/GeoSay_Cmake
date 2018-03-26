@@ -1,0 +1,625 @@
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft(R) ��������汾 12.0.30501.0
+[Microsoft .NET Framework �汾 4.0.30319.42000]
+��Ȩ���� (C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2018/3/26 13:17:56��
+�ڵ� 1 �ϵ���Ŀ��G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdC.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdC.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdC.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.69
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/3.9.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft(R) ��������汾 12.0.30501.0
+[Microsoft .NET Framework �汾 4.0.30319.42000]
+��Ȩ���� (C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2018/3/26 13:17:57��
+�ڵ� 1 �ϵ���Ŀ��G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdCXX.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdCXX.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdCXX.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.62
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/3.9.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_07551.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/26 13:17:58。
+节点 1 上的项目“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\cmTC_07551.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_07551.dir\Debug\”。
+  正在创建目录“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_07551.dir\Debug\cmTC_07551.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_07551.dir\Debug\cmTC_07551.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_07551.dir\Debug\\" /Fd"cmTC_07551.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_07551.dir\Debug\\" /Fd"cmTC_07551.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_07551.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_07551.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_07551.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_07551.dir\Debug\testCCompiler.obj
+  cmTC_07551.vcxproj -> G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_07551.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_07551.dir\Debug\cmTC_07551.tlog\unsuccessfulbuild”。
+  正在对“cmTC_07551.dir\Debug\cmTC_07551.tlog\cmTC_07551.lastbuildstate”执行 Touch 任务。
+已完成生成项目“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\cmTC_07551.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.76
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_73bc8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/26 13:17:59。
+节点 1 上的项目“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\cmTC_73bc8.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_73bc8.dir\Debug\”。
+  正在创建目录“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_73bc8.dir\Debug\cmTC_73bc8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_73bc8.dir\Debug\cmTC_73bc8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_73bc8.dir\Debug\\" /Fd"cmTC_73bc8.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_73bc8.dir\Debug\\" /Fd"cmTC_73bc8.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_73bc8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_73bc8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_73bc8.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_73bc8.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_73bc8.vcxproj -> G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_73bc8.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_73bc8.dir\Debug\cmTC_73bc8.tlog\unsuccessfulbuild”。
+  正在对“cmTC_73bc8.dir\Debug\cmTC_73bc8.tlog\cmTC_73bc8.lastbuildstate”执行 Touch 任务。
+已完成生成项目“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\cmTC_73bc8.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.60
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_f1905.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/26 13:18:00。
+节点 1 上的项目“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\cmTC_f1905.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f1905.dir\Debug\”。
+  正在创建目录“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f1905.dir\Debug\cmTC_f1905.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f1905.dir\Debug\cmTC_f1905.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_f1905.dir\Debug\\" /Fd"cmTC_f1905.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_f1905.dir\Debug\\" /Fd"cmTC_f1905.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_f1905.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_f1905.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_f1905.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_f1905.dir\Debug\testCXXCompiler.obj
+  cmTC_f1905.vcxproj -> G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_f1905.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_f1905.dir\Debug\cmTC_f1905.tlog\unsuccessfulbuild”。
+  正在对“cmTC_f1905.dir\Debug\cmTC_f1905.tlog\cmTC_f1905.lastbuildstate”执行 Touch 任务。
+已完成生成项目“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\cmTC_f1905.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.59
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_495ea.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/26 13:18:01。
+节点 1 上的项目“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\cmTC_495ea.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_495ea.dir\Debug\”。
+  正在创建目录“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_495ea.dir\Debug\cmTC_495ea.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_495ea.dir\Debug\cmTC_495ea.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_495ea.dir\Debug\\" /Fd"cmTC_495ea.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_495ea.dir\Debug\\" /Fd"cmTC_495ea.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_495ea.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_495ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_495ea.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_495ea.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_495ea.vcxproj -> G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_495ea.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_495ea.dir\Debug\cmTC_495ea.tlog\unsuccessfulbuild”。
+  正在对“cmTC_495ea.dir\Debug\cmTC_495ea.tlog\cmTC_495ea.lastbuildstate”执行 Touch 任务。
+已完成生成项目“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\cmTC_495ea.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.68
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_62c6e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/26 13:18:02。
+节点 1 上的项目“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\cmTC_62c6e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_62c6e.dir\Debug\”。
+  正在创建目录“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_62c6e.dir\Debug\cmTC_62c6e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_62c6e.dir\Debug\cmTC_62c6e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_62c6e.dir\Debug\\" /Fd"cmTC_62c6e.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\feature_tests.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_62c6e.dir\Debug\\" /Fd"cmTC_62c6e.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_62c6e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_62c6e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_62c6e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_62c6e.dir\Debug\feature_tests.obj
+  cmTC_62c6e.vcxproj -> G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_62c6e.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_62c6e.dir\Debug\cmTC_62c6e.tlog\unsuccessfulbuild”。
+  正在对“cmTC_62c6e.dir\Debug\cmTC_62c6e.tlog\cmTC_62c6e.lastbuildstate”执行 Touch 任务。
+已完成生成项目“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\cmTC_62c6e.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.61
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_e7b3b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/26 13:18:03。
+节点 1 上的项目“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\cmTC_e7b3b.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_e7b3b.dir\Debug\”。
+  正在创建目录“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_e7b3b.dir\Debug\cmTC_e7b3b.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_e7b3b.dir\Debug\cmTC_e7b3b.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_e7b3b.dir\Debug\\" /Fd"cmTC_e7b3b.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\feature_tests.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_e7b3b.dir\Debug\\" /Fd"cmTC_e7b3b.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_e7b3b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_e7b3b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_e7b3b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e7b3b.dir\Debug\feature_tests.obj
+  cmTC_e7b3b.vcxproj -> G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_e7b3b.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_e7b3b.dir\Debug\cmTC_e7b3b.tlog\unsuccessfulbuild”。
+  正在对“cmTC_e7b3b.dir\Debug\cmTC_e7b3b.tlog\cmTC_e7b3b.lastbuildstate”执行 Touch 任务。
+已完成生成项目“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\cmTC_e7b3b.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.65
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_17b62.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/26 13:18:04。
+节点 1 上的项目“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\cmTC_17b62.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_17b62.dir\Debug\”。
+  正在创建目录“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_17b62.dir\Debug\cmTC_17b62.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_17b62.dir\Debug\cmTC_17b62.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_17b62.dir\Debug\\" /Fd"cmTC_17b62.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\feature_tests.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_17b62.dir\Debug\\" /Fd"cmTC_17b62.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_17b62.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_17b62.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_17b62.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_17b62.dir\Debug\feature_tests.obj
+  cmTC_17b62.vcxproj -> G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_17b62.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_17b62.dir\Debug\cmTC_17b62.tlog\unsuccessfulbuild”。
+  正在对“cmTC_17b62.dir\Debug\cmTC_17b62.tlog\cmTC_17b62.lastbuildstate”执行 Touch 任务。
+已完成生成项目“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\cmTC_17b62.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.72
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_9d1c7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/26 13:18:05。
+节点 1 上的项目“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\cmTC_9d1c7.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_9d1c7.dir\Debug\”。
+  正在创建目录“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_9d1c7.dir\Debug\cmTC_9d1c7.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_9d1c7.dir\Debug\cmTC_9d1c7.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_9d1c7.dir\Debug\\" /Fd"cmTC_9d1c7.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\feature_tests.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_9d1c7.dir\Debug\\" /Fd"cmTC_9d1c7.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_9d1c7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_9d1c7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_9d1c7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9d1c7.dir\Debug\feature_tests.obj
+  cmTC_9d1c7.vcxproj -> G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_9d1c7.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_9d1c7.dir\Debug\cmTC_9d1c7.tlog\unsuccessfulbuild”。
+  正在对“cmTC_9d1c7.dir\Debug\cmTC_9d1c7.tlog\cmTC_9d1c7.lastbuildstate”执行 Touch 任务。
+已完成生成项目“G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\CMakeTmp\cmTC_9d1c7.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.70
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates

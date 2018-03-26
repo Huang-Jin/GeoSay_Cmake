@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6C2FE1E7-8760-3952-B6C0-31D0F98069E6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>GeoSay</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">G:\Programming\C++\GeoSay_Cmake\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">GeoSay.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">GeoSay</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">G:\Programming\C++\GeoSay_Cmake\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">GeoSay.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">GeoSay</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">G:\Programming\C++\GeoSay_Cmake\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">GeoSay.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">GeoSay</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">G:\Programming\C++\GeoSay_Cmake\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">GeoSay.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">GeoSay</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Programming\opencv-2.4.13\build\include;G:\Programming\opencv-2.4.13\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Programming\opencv-2.4.13\build\include;G:\Programming\opencv-2.4.13\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Programming\opencv-2.4.13\build\include;G:\Programming\opencv-2.4.13\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_videostab2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_ts2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_superres2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_stitching2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_contrib2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_nonfree2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_ocl2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_gpu2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_photo2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_objdetect2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_legacy2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_video2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_ml2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_calib3d2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_features2d2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_highgui2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_imgproc2413d.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;vfw32.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_flann2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_core2413d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/Programming/C++/GeoSay_Cmake/build/Debug/GeoSay.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Programming/C++/GeoSay_Cmake/build/Debug/GeoSay.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Programming\opencv-2.4.13\build\include;G:\Programming\opencv-2.4.13\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Programming\opencv-2.4.13\build\include;G:\Programming\opencv-2.4.13\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Programming\opencv-2.4.13\build\include;G:\Programming\opencv-2.4.13\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_videostab2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_ts2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_superres2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_stitching2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_contrib2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_nonfree2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_ocl2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_gpu2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_photo2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_objdetect2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_legacy2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_video2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_ml2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_calib3d2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_features2d2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_highgui2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_imgproc2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_flann2413.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_core2413.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/Programming/C++/GeoSay_Cmake/build/Release/GeoSay.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Programming/C++/GeoSay_Cmake/build/Release/GeoSay.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Programming\opencv-2.4.13\build\include;G:\Programming\opencv-2.4.13\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Programming\opencv-2.4.13\build\include;G:\Programming\opencv-2.4.13\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Programming\opencv-2.4.13\build\include;G:\Programming\opencv-2.4.13\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_videostab2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_ts2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_superres2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_stitching2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_contrib2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_nonfree2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_ocl2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_gpu2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_photo2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_objdetect2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_legacy2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_video2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_ml2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_calib3d2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_features2d2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_highgui2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_imgproc2413d.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;vfw32.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_flann2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_core2413d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/Programming/C++/GeoSay_Cmake/build/MinSizeRel/GeoSay.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Programming/C++/GeoSay_Cmake/build/MinSizeRel/GeoSay.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Programming\opencv-2.4.13\build\include;G:\Programming\opencv-2.4.13\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Programming\opencv-2.4.13\build\include;G:\Programming\opencv-2.4.13\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Programming\opencv-2.4.13\build\include;G:\Programming\opencv-2.4.13\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_videostab2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_ts2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_superres2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_stitching2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_contrib2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_nonfree2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_ocl2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_gpu2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_photo2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_objdetect2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_legacy2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_video2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_ml2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_calib3d2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_features2d2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_highgui2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_imgproc2413d.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;vfw32.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_flann2413d.lib;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\opencv_core2413d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/Programming/C++/GeoSay_Cmake/build/RelWithDebInfo/GeoSay.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Programming/C++/GeoSay_Cmake/build/RelWithDebInfo/GeoSay.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Programming\C++\GeoSay_Cmake\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule G:/Programming/C++/GeoSay_Cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+G:\Programming\CMake\bin\cmake.exe -HG:/Programming/C++/GeoSay_Cmake -BG:/Programming/C++/GeoSay_Cmake/build --check-stamp-file G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">G:/Programming/C++/GeoSay_Cmake/CMakeLists.txt;G:\Programming\C++\GeoSay_Cmake\CMakeLists.txt;G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CMakeSystem.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;G:\Programming\opencv-2.4.13\build\OpenCVConfig-version.cmake;G:\Programming\opencv-2.4.13\build\OpenCVConfig.cmake;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\OpenCVConfig.cmake;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\OpenCVModules.cmake;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\OpenCVModules-debug.cmake;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\OpenCVModules-release.cmake;G:\Programming\C++\GeoSay_Cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule G:/Programming/C++/GeoSay_Cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+G:\Programming\CMake\bin\cmake.exe -HG:/Programming/C++/GeoSay_Cmake -BG:/Programming/C++/GeoSay_Cmake/build --check-stamp-file G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">G:/Programming/C++/GeoSay_Cmake/CMakeLists.txt;G:\Programming\C++\GeoSay_Cmake\CMakeLists.txt;G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CMakeSystem.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;G:\Programming\opencv-2.4.13\build\OpenCVConfig-version.cmake;G:\Programming\opencv-2.4.13\build\OpenCVConfig.cmake;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\OpenCVConfig.cmake;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\OpenCVModules.cmake;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\OpenCVModules-debug.cmake;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\OpenCVModules-release.cmake;G:\Programming\C++\GeoSay_Cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule G:/Programming/C++/GeoSay_Cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+G:\Programming\CMake\bin\cmake.exe -HG:/Programming/C++/GeoSay_Cmake -BG:/Programming/C++/GeoSay_Cmake/build --check-stamp-file G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">G:/Programming/C++/GeoSay_Cmake/CMakeLists.txt;G:\Programming\C++\GeoSay_Cmake\CMakeLists.txt;G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CMakeSystem.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;G:\Programming\opencv-2.4.13\build\OpenCVConfig-version.cmake;G:\Programming\opencv-2.4.13\build\OpenCVConfig.cmake;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\OpenCVConfig.cmake;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\OpenCVModules.cmake;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\OpenCVModules-debug.cmake;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\OpenCVModules-release.cmake;G:\Programming\C++\GeoSay_Cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule G:/Programming/C++/GeoSay_Cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+G:\Programming\CMake\bin\cmake.exe -HG:/Programming/C++/GeoSay_Cmake -BG:/Programming/C++/GeoSay_Cmake/build --check-stamp-file G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">G:/Programming/C++/GeoSay_Cmake/CMakeLists.txt;G:\Programming\C++\GeoSay_Cmake\CMakeLists.txt;G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CMakeSystem.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;G:\Programming\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;G:\Programming\opencv-2.4.13\build\OpenCVConfig-version.cmake;G:\Programming\opencv-2.4.13\build\OpenCVConfig.cmake;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\OpenCVConfig.cmake;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\OpenCVModules.cmake;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\OpenCVModules-debug.cmake;G:\Programming\opencv-2.4.13\build\x86\vc12\lib\OpenCVModules-release.cmake;G:\Programming\C++\GeoSay_Cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">G:\Programming\C++\GeoSay_Cmake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="G:\Programming\C++\GeoSay_Cmake\src\Geosay.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\Programming\C++\GeoSay_Cmake\build\ZERO_CHECK.vcxproj">
+      <Project>{E9E9F039-9282-3C75-A069-C9EBAE0C6392}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

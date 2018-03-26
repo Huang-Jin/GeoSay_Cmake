@@ -1,0 +1,3 @@
+G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/GeoSay.dir
+G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/ALL_BUILD.dir
+G:/Programming/C++/GeoSay_Cmake/build/CMakeFiles/ZERO_CHECK.dir
