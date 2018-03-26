@@ -8,8 +8,8 @@ GeoSay is a building detection algorithm which produce geometric building index 
 
 Building and using requires the following libraries and programs
 
-    OpenCV
-    [ASJDetector](https://github.com/cherubicXN/anisotropic-scale-junction-detector)
+- OpenCV (2.4.13 is recommanded)
+- [ASJDetector](https://github.com/cherubicXN/anisotropic-scale-junction-detector)
 
 ## Usage
 
